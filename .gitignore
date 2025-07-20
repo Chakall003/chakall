@@ -19,6 +19,17 @@ yarn-error.log*
 # env files
 .env*
 
+# Oracle Wallet - Archivos sensibles de conexión
+wallet/
+Wallet_*/
+*.sso
+*.p12
+*.pem
+*.jks
+ojdbc.properties
+sqlnet.ora
+tnsnames.ora
+
 # vercel
 .vercel
 
